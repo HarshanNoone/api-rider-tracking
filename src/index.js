@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new IOServer(server, {
     cors: {
-        origin: "http://localhost:5173", // your Vite frontend origin
+        origin: "https://rider-tracking-git-main-harshans-projects-45bd805f.vercel.app/", // your Vite frontend origin
         methods: ["GET", "POST"]
     }
 });
