@@ -15,7 +15,7 @@ app.use(express.json());
 // In-memory store for latest rider locations
 const riders = new Map();
 app.get('/', (req, res) => {
-    res.send('Server is up!');
+    res.send('Server is up now!');
 });
 // Simple API to update rider location (use POST from Postman / curl)
 app.post("/update-location", (req, res) => {

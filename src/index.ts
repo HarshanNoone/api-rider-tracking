@@ -27,7 +27,7 @@ app.use(express.json());
 const riders = new Map<string, RiderLocation>();
 
 app.get('/', (req, res) => {
-  res.send('Server is up!');
+  res.send('Server is up now!');
 });
 
 
